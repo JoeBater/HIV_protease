@@ -5,6 +5,10 @@
 A minimalist reimplementation of the method described in "State of the art prediction of HIV-1 protease cleavage sites" (Bioinformatics, Vol. 31, Issue 8, 2015) by Rognvaldsson et al.
 Demonstrates how a linear SVM with orthogonal encoding can outperform existing predictors for HIV-1 protease cleavage.
 
+HIV-1 protease is a key enzyme in the life cycle of the virus—it cleaves polyproteins into functional units, enabling the virus to mature and become infectious. Predicting where this cleavage occurs is crucial for designing effective inhibitors, which are a cornerstone of antiretroviral therapy.
+
+Traditional methods for identifying cleavage sites often rely on complex biochemical features or deep learning models. However, the 2015 paper by Rognvaldsson et al. showed that a simple linear SVM with orthogonal encoding could outperform more elaborate approaches. This reimplementation demonstrates that insight with minimal code, making it a great example of how simplicity can rival sophistication.
+
 ⚙️ ***Setup***
 
 pip install scikit-learn pandas numpy
